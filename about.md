@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am currently a Ph.D. candidate at Inria Rennes, in the [LinkMedia team](http://www-linkmedia.irisa.fr/) and Thales.
+
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+My thesis is dedicated to estimating the reliability of Deep Neural Networks using Rare Event simulation algorithms.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+You can contact me at the following adress:
+
+[karim.tit@inria.fr](mailto:karim.tit@inria.fr)
