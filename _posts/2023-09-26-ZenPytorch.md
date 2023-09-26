@@ -13,7 +13,7 @@ These principles have influenced the design of Python ever since and was even ad
 
 ![_config.yml]({{ site.baseurl }}/images/real_zen_python.png)
 
-### The Zen of Pytorch
+### The Zen of PyTorch, GPT-style
 
 By prompting ChatGPT one can obtain equivalent poems for PyTorch, a popular Deep Learning framework initially developped by Meta AI and now an open source project supported by the Linux Foundation. The version below offers 17 tips, which in my opinion reflect well on those provided by Peters and are actually quite sensible, for the most part.
 
