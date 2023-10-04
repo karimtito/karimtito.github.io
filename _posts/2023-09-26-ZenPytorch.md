@@ -9,7 +9,7 @@ subtitle:
 ### The Zen of Python 
 
 In 1999, Tim Peters wrote the "Zen of Python", a poem consisting of 19 programming principles aimed at guiding python developpers all around the world. 
-These principles have influenced the design of Python ever since and was even added to the Python interpreter where it can be displayed by typing `import this`.
+These principles have influenced the design of Python ever since and the poem was eventually added to the Python interpreter where it can be displayed by typing '`import this`' in the command prompt.
 
 ![_config.yml]({{ site.baseurl }}/images/real_zen_python.png)
 
