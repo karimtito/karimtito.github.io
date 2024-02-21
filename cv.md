@@ -5,5 +5,5 @@ permalink: /cv/
 ---         
 
 
-<a id="raw-url" href="https://raw.githubusercontent.com/karimtito/karimtito.github.io/master/CV_Karim_TIT_phd-2.pdf">  2-pages format Curriculum Vitae </a> (last updated: November 2023)
+<a id="raw-url" href="https://raw.githubusercontent.com/karimtito/karimtito.github.io/master/CV_phd_tit_karim.pdf>  2-pages format Curriculum Vitae </a> (last updated: November 2023)
 
