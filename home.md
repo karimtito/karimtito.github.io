@@ -6,15 +6,15 @@ permalink: /about/
 
 ### About me
 
-I am a French computer scientist, currently pursuing a Ph.D. in [Inria](https://www.inria.fr/en)'s [LinkMedia team](http://www-linkmedia.irisa.fr/) and in [Thales Group](https://www.thalesgroup.com/en)'s [La Ruche team](https://www.thalesgroup.com/en/worldwide/news/hive-activity). Both teams are based in [Rennes](https://en.wikipedia.org/wiki/Rennes), the capital city of the Britanny region.
+I am a postdoctoral researcher at the University of Luxembourg, where I am part of the SerVal team in the SnT lab. Before that I graduated with a PhD in computer science from the University of Rennes in April 2024, after 3 years of doctoral study spent within [Inria](https://www.inria.fr/en)'s [LinkMedia team](http://www-linkmedia.irisa.fr/) and in [Thales Group](https://www.thalesgroup.com/en)'s [La Ruche team](https://www.thalesgroup.com/en/worldwide/news/hive-activity). 
 
 
 ### Research
 
-My research is focused on Deep Learning models robustness. More precisely the subject of my Ph.D. thesis is the estimation of the reliability of Deep Neural Networks using Rare Event simulation algorithms.
+My research is focused on Deep Learning models robustness and AI formal verification methods. More precisely, the subject of my Ph.D. thesis was the estimation of the reliability of Deep Neural Networks using Rare Event simulation algorithms.
 
 ### Contact me
 
 You can contact me at the institutional adress below:
 
-[karim.tit@inria.fr](mailto:karim.tit@inria.fr)
+[karim.tit@uni.lu](mailto:karim.tit@uni.lu)

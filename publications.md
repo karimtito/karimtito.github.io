@@ -5,7 +5,9 @@ permalink: /publications/
 ---     
 ## First-author publications
 
-* [Gradient-Informed Neural Network Statistical Robustness Estimation](https://proceedings.mlr.press/v206/tit23a.html), <br> K.T., Teddy Furon, Mathias Rousset - 26th International Conference on Artificial Intelligence and Statistics (AISTATS), Apr 2023, Valencia, Spain.
+* [Fast Reliability Estimation for Neural Networks with Adversarial Attack-Driven Importance Sampling](https://hal.science/hal-04565441), <br>  K.T., T. Furon - 40th Conference on Uncertainty in Artificial Intelligence (UAI), Jul 2024, Barcelona, Spain.
+
+* [Gradient-Informed Neural Network Statistical Robustness Estimation](https://proceedings.mlr.press/v206/tit23a.html), <br> K.T., T. Furon, M. Rousset - 26th International Conference on Artificial Intelligence and Statistics (AISTATS), Apr 2023, Valencia, Spain.
 
 * [Efficient Statistical Assessment of Neural Network Corruption Robustness](https://proceedings.neurips.cc/paper/2021/hash/4d215ab7508a3e089af43fb605dd27d1-Abstract.html), <br> K.T., T. Furon, M. Rousset - 35th Conference on Neural Information Processing Systems (NeurIPS), Dec 2021, Sydney (virtual), Australia.
 
