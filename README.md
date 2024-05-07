@@ -1,1 +1,1 @@
-Repository for my Ph.D. blogsite.
+Repository for my research blogsite.
