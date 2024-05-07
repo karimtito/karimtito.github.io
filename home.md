@@ -6,12 +6,12 @@ permalink: /about/
 
 ### About me
 
-I am a postdoctoral researcher at the University of Luxembourg, where I am part of the SerVal team in the SnT lab. Before that I graduated with a PhD in computer science from the University of Rennes in April 2024, after 3 years of doctoral study spent within [Inria](https://www.inria.fr/en)'s [LinkMedia team](http://www-linkmedia.irisa.fr/) and in [Thales Group](https://www.thalesgroup.com/en)'s [La Ruche team](https://www.thalesgroup.com/en/worldwide/news/hive-activity). 
+I am a postdoctoral researcher at the University of Luxembourg, where I am part of the [Security and Validation (SerVal)](https://serval-snt.github.io/) team within the [Security and Trust (SnT)](https://www.uni.lu/snt-en/) interdisciplinary research centre. Before that I graduated with a PhD in computer science from the University of Rennes in April 2024, after 3 years of doctoral study spent within [Inria](https://www.inria.fr/en)'s [LinkMedia team](http://www-linkmedia.irisa.fr/) and in [Thales Group](https://www.thalesgroup.com/en)'s [La Ruche team](https://www.thalesgroup.com/en/worldwide/news/hive-activity). 
 
 
 ### Research
 
-My research is focused on Deep Learning models robustness and AI formal verification methods. More precisely, the subject of my Ph.D. thesis was the estimation of the reliability of Deep Neural Networks using Rare Event simulation algorithms.
+My research is focused on Deep Learning models robustness and AI formal/statistical verification methods. More precisely, the subject of my Ph.D. thesis was the estimation of the reliability of Deep Neural Networks using Rare Event simulation algorithms.
 
 ### Contact me
 
