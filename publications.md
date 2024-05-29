@@ -20,4 +20,4 @@ Traonouez - Conference on Artificial Intelligence for Defense (CAID), Nov 2021, 
 
 ## Ph.D. Thesis: 
 
-* [Reliability of Deep Learning with Rare Event Simulation :Theory and Practice.](https://raw.githubusercontent.com/karimtito/karimtito.github.io/master/Tit_Karim_Phd_Thesis_final.pdf) 
+* [Reliability of Deep Learning with Rare Event Simulation: Theory and Practice](https://raw.githubusercontent.com/karimtito/karimtito.github.io/master/Tit_Karim_Phd_Thesis_final.pdf), <br> K.T., thesis defended in April 2024. 
