@@ -5,7 +5,7 @@ permalink: /publications/
 ---     
 ## First-author publications:
 
-* [Fast Reliability Estimation for Neural Networks with Adversarial Attack-Driven Importance Sampling](https://hal.science/hal-04565441), <br>  K.T., T. Furon - 40th Conference on Uncertainty in Artificial Intelligence (UAI), Jul 2024, Barcelona, Spain.
+* [Fast Reliability Estimation for Neural Networks with Adversarial Attack-Driven Importance Sampling](https://openreview.net/forum?id=0usGhloD12), <br>  K.T., T. Furon - 40th Conference on Uncertainty in Artificial Intelligence (UAI), Jul 2024, Barcelona, Spain.
 
 * [Gradient-Informed Neural Network Statistical Robustness Estimation](https://proceedings.mlr.press/v206/tit23a.html), <br> K.T., T. Furon, M. Rousset - 26th International Conference on Artificial Intelligence and Statistics (AISTATS), Apr 2023, Valencia, Spain.
 
