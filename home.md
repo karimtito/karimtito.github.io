@@ -11,7 +11,7 @@ I am a postdoctoral researcher at the [University of Luxembourg](https://www.uni
 
 ### Research
 
-My research is focused on Deep Learning models robustness and AI formal/statistical verification methods. More precisely, the subject of my [Ph.D. thesis](https://raw.githubusercontent.com/karimtito/karimtito.github.io/master/Tit_Karim_Phd_Thesis_final.pdf) was the estimation of the reliability of Deep Neural Networks using Rare Event simulation algorithms.
+My research is focused on [AI Safety](https://en.wikipedia.org/wiki/AI_safety) and more precisely on AI formal/statistical verification methods. The subject of my [Ph.D. thesis](https://raw.githubusercontent.com/karimtito/karimtito.github.io/master/Tit_Karim_Phd_Thesis_final.pdf) was the estimation of the reliability of Deep Neural Networks using Rare Event simulation algorithms.
 
 ### Contact me
 
