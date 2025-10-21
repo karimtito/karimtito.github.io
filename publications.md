@@ -15,6 +15,8 @@ permalink: /publications/
 
 ## Other publications:
 
+* [KCLNet: Physics-Informed Power Flow Prediction via Constraints Projections](https://ecmlpkdd-storage.s3.eu-central-1.amazonaws.com/preprints/2025/ads/preprint_ecml_pkdd_2025_ads_765.pdf), <br> P. Dogoulis, K. Tit, M. Cordy - European Conference in Machine Learning (ECML), Aug 2025, Porto, Portugal.
+
 * [TS-SCAN: a Density-Based Clustering Method for Trajectory Analysis and Anomaly Detection](https://raw.githubusercontent.com/karimtito/karimtito.github.io/master/tsscan-1.pdf),  <br> L. Monnier, L.-M. Traonouez, K.T. - 7th International Conference on RADAR (RADAR), Oct 2024, Rennes, France.
 
 * [Three Bricks to Consolidate Watermarks for Large Language Models](https://arxiv.org/abs/2308.00113), <br> P. Fernandez, A. Chaffin, K.T., V. Chappelier, T. Furon - IEEE 15th International Workshop on Information Forensics and Security (WIFS), Dec 2023, Nuremberg, Germany.
