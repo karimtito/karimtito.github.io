@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
-
-### About me
 
 I am a postdoctoral researcher at the [University of Luxembourg](https://www.uni.lu), where I am part of the [Security, Reasoning and Validation (SeRVal)](https://serval-snt.github.io/) team within the [Security and Trust (SnT)](https://www.uni.lu/snt-en/) interdisciplinary research centre. Before that, I graduated with a PhD in computer science from the University of Rennes in April 2024, after 3 years of doctoral study spent within [Inria](https://www.inria.fr/en)'s [LinkMedia team](http://www-linkmedia.irisa.fr/) and in [Thales Group](https://www.thalesgroup.com/en)'s [La Ruche team](https://www.thalesgroup.com/en/worldwide/news/hive-activity). 
 
