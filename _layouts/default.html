@@ -14,13 +14,21 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <script>
+      (function () {
+        var storedTheme = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var theme = storedTheme || (prefersDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
   </head>
 
   <body>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/home" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
@@ -33,6 +41,7 @@
             <a href="{{ site.baseurl }}/publications">Publications</a>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/cv">CV</a>
+            <button class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">🌙</button>
             
           </nav>
         </header>
@@ -54,6 +63,27 @@
     </div>
 
     {% include analytics.html %}
+    <script>
+      (function () {
+        var button = document.querySelector('.theme-toggle');
+        if (!button) return;
+
+        function applyTheme(theme) {
+          document.documentElement.setAttribute('data-theme', theme);
+          localStorage.setItem('theme', theme);
+          button.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+          button.textContent = theme === 'dark' ? '☀️' : '🌙';
+        }
+
+        var currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+        applyTheme(currentTheme);
+
+        button.addEventListener('click', function () {
+          var nextTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+          applyTheme(nextTheme);
+        });
+      })();
+    </script>
   </body>
 </html>
 

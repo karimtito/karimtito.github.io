@@ -2,11 +2,33 @@
 layout: default
 ---
 
+<section class="home-intro">
+  <h1>Research notes on AI safety, mathematics, and machine learning</h1>
+  <p>
+    I am Karim Tit, a postdoctoral researcher working on AI safety and verification.
+    This blog mixes research-facing writing, mathematical intuition, and occasional companion notebooks.
+  </p>
+  <div class="home-intro-links">
+    <a href="{{ site.baseurl }}/about">About</a>
+    <a href="{{ site.baseurl }}/publications">Publications</a>
+    <a href="{{ site.baseurl }}/leslie/">Leslie Matrices, Part 1</a>
+    <a href="{{ site.baseurl }}/leslie-matrices-part-2/">Leslie Matrices, Part 2</a>
+  </div>
+</section>
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="post-meta">
+        <span>{{ post.date | date: "%B %e, %Y" }}</span>
+        {% if post.subtitle %}
+          <span class="post-meta-sep">•</span>
+          <span>{{ post.subtitle }}</span>
+        {% endif %}
+      </div>
 
       <div class="entry">
         {{ post.excerpt }}
