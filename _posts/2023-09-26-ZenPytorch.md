@@ -33,7 +33,7 @@ By prompting ChatGPT one can obtain equivalent poems for PyTorch, a popular Deep
 >
 > 7. Batch is better than one, parallel is better than serial.
 >
-> 8. GPU acceleration, the wind beneath your model’s wings.
+> 8. GPU acceleration, the wind beneath your model's wings.
 >
 > 9. Be generous with comments, your future self will thank you.
 >
@@ -41,14 +41,14 @@ By prompting ChatGPT one can obtain equivalent poems for PyTorch, a popular Deep
 >
 > 11. In the face of ambiguity, refer to the docs.
 >
-> 12. There should be one – and preferably only one – right way to define a layer.
+> 12. There should be one, and preferably only one, right way to define a layer.
 >
-> 13. Although that way may not be obvious unless you’ve read the source.
+> 13. Although that way may not be obvious unless you've read the source.
 >
 > 14. Now is better than never, but understanding beats rushing.
 >
 > 15. If the training is hard to debug, revisit your model.
 >
-> 16. If the results are easy to interpret, you’re onto something.
+> 16. If the results are easy to interpret, you're onto something.
 >
-> 17. Experimentation is one honking great idea – let’s do more of those!
+> 17. Experimentation is one honking great idea. Let's do more of those!

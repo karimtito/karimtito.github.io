@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta name="google-site-verification" content="9O-N3UYnArRZhWBdmIVI9jeyGNJDzIDqL7aUDKKEvzg" />
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} | {{ site.description }}</title>
 
     {% include meta.html %}
 
@@ -44,7 +44,7 @@
             <a href="{{ site.baseurl }}/about/#news">News</a>
             <a href="{{ site.baseurl }}/#writing">Writing</a>
             <a href="{{ site.baseurl }}/cv/"{% if page.url == '/cv/' %} aria-current="page"{% endif %}>CV</a>
-            <button class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">🌙</button>
+            <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">Dark mode</button>
             
           </nav>
         </header>
@@ -75,7 +75,8 @@
           document.documentElement.setAttribute('data-theme', theme);
           localStorage.setItem('theme', theme);
           button.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
-          button.textContent = theme === 'dark' ? '☀️' : '🌙';
+          button.textContent = theme === 'dark' ? 'Light mode' : 'Dark mode';
+          button.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
         }
 
         var currentTheme = document.documentElement.getAttribute('data-theme') || 'light';

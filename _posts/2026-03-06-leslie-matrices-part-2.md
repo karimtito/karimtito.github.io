@@ -38,7 +38,7 @@ The dominant eigenvalue $\lambda_1$ controls long-run growth, but practical deci
 
 Two populations can share the same long-run growth rate and still behave very differently over the next few periods.
 
-Why? Because initial age structure matters. This was one of the first things I found genuinely counterintuitive about these models: even when the long-run story is fixed, the short-run story can still surprise you. If most individuals are concentrated in non-reproductive classes, births may remain low for several periods even when $\lambda_1 > 1$. Conversely, a temporary “birth wave” can happen with $\lambda_1 < 1$ when many individuals are currently in high-fertility classes.
+Why? Because initial age structure matters. This was one of the first things I found genuinely counterintuitive about these models: even when the long-run story is fixed, the short-run story can still surprise you. If most individuals are concentrated in non-reproductive classes, births may remain low for several periods even when $\lambda_1 > 1$. Conversely, a temporary "birth wave" can happen with $\lambda_1 < 1$ when many individuals are currently in high-fertility classes.
 
 In applications (public policy, conservation, fisheries), these transient effects are often more important than the asymptotic regime.
 
@@ -58,7 +58,7 @@ $$
 e_{ij} = \frac{a_{ij}}{\lambda_1}\,\frac{\partial \lambda_1}{\partial a_{ij}}
 $$
 
-Elasticities are especially useful when fertility and survival have different units or magnitudes. They let us compare “percentage impact on growth per percentage change in parameter.”
+Elasticities are especially useful when fertility and survival have different units or magnitudes. They let us compare "percentage impact on growth per percentage change in parameter."
 
 A common empirical finding: for long-lived species, growth is often more elastic to adult survival than to juvenile fertility.
 
@@ -106,7 +106,7 @@ These are not weaknesses so much as modeling choices. The Leslie matrix remains 
 
 Part 1 established the core mechanics. Part 2 adds the operational lens: short-run effects, parameter influence, and changing conditions.
 
-If one lesson stands out, it is this: understanding population change is not only about growth rates—it is about structure. That is probably the reason Leslie matrices stayed with me: they show how a very compact mathematical object can still preserve the logic of lived biological time.
+If one lesson stands out, it is this: understanding population change is not only about growth rates; it is about structure. That is probably the reason Leslie matrices stayed with me: they show how a very compact mathematical object can still preserve the logic of lived biological time.
 
 ## Companion notebook
 
