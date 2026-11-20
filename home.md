@@ -6,19 +6,31 @@ permalink: /about/
 ---
 
 <div class="page-intro">
-I am a postdoctoral researcher at the University of Luxembourg. I study the reliability and robustness of machine learning systems, using statistical evaluation and formal methods to assess how they behave under uncertainty and attack.
+I am a postdoctoral researcher in AI safety at the University of Luxembourg. My work sits at the intersection of machine learning reliability, formal and statistical verification, and robust evaluation.
 
 <a class="button-link" href="/publications/">Publications</a>
 <a class="button-link" href="/cv/">CV</a>
 <a class="button-link" href="mailto:karim.tit@uni.lu">Contact</a>
 </div>
 
-### About me
+<section class="about-news" id="news" aria-labelledby="news-heading">
+  <h2 id="news-heading">News</h2>
+  <ol class="news-compact">
+    {% for item in site.data.news %}
+    <li>
+      <time datetime="{{ item.date_iso }}">{{ item.display_date }}</time>
+      <a href="{% if item.link contains '://' %}{{ item.link }}{% else %}{{ item.link | relative_url }}{% endif %}">{{ item.title }}</a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+## About me
 
 I am a postdoctoral researcher at the [University of Luxembourg](https://www.uni.lu), where I am part of the [Security, Reasoning and Validation (SeRVal)](https://serval-snt.github.io/) team within the [Security and Trust (SnT)](https://www.uni.lu/snt-en/) interdisciplinary research centre. Before that, I graduated with a PhD in computer science from the University of Rennes in April 2024, after 3 years of doctoral study spent within [Inria](https://www.inria.fr/en)'s [LinkMedia team](http://www-linkmedia.irisa.fr/) and in [Thales Group](https://www.thalesgroup.com/en)'s [La Ruche team](https://www.thalesgroup.com/en/worldwide/news/hive-activity). 
 
 
-### Research
+## Research
 
 My research is focused on [AI Safety](https://en.wikipedia.org/wiki/AI_safety), with a particular emphasis on formal and statistical verification methods.
 
@@ -28,11 +40,9 @@ My current interests include:
 
 - reliability and robustness estimation for machine learning systems,
 - uncertainty-aware evaluation,
-- verification-oriented tools for high-stakes AI,
-- adversarial robustness of tabular foundation models,
-- grammar-constrained generation for language models.
+- verification-oriented tools for high-stakes AI.
 
-### Contact me
+## Contact me
 
 You can contact me at the institutional address below:
 

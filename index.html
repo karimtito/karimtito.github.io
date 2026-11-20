@@ -1,79 +1,35 @@
 ---
 layout: default
-description: Karim Tit researches the reliability, robustness, and verification of machine learning systems.
+description: Research notes on AI safety, mathematics, and machine learning by Karim Tit.
 ---
 
-<section class="home-hero" aria-labelledby="home-title">
-  <p class="eyebrow">Karim Tit · Researcher in machine learning</p>
-  <h1 id="home-title">Making machine learning more reliable.</h1>
-  <p class="hero-lead">I am a postdoctoral researcher at the University of Luxembourg. I study how to evaluate, verify, and improve machine learning systems, from adversarial robustness to reliable language model outputs.</p>
-  <div class="hero-actions">
-    <a class="button-link button-primary" href="{{ '/publications/' | relative_url }}">Explore publications</a>
-    <a class="button-link" href="{{ '/about/' | relative_url }}">About my research</a>
-  </div>
-</section>
-
-<section class="home-section" aria-labelledby="recent-news-heading">
-  <div class="section-heading">
-    <div>
-      <p class="eyebrow">Updates</p>
-      <h2 id="recent-news-heading">Recent news</h2>
-    </div>
-    <a href="{{ '/news/' | relative_url }}">All news</a>
-  </div>
-  <div class="news-list">
-    {% for item in site.data.news limit:3 %}
-    <article class="news-item">
-      <time datetime="{{ item.date_iso }}">{{ item.display_date }}</time>
-      <div>
-        <h3>{{ item.title }}</h3>
-        <p>{{ item.description }}</p>
-        <a href="{% if item.link contains '://' %}{{ item.link }}{% else %}{{ item.link | relative_url }}{% endif %}">{{ item.link_label }}</a>
-      </div>
-    </article>
-    {% endfor %}
-  </div>
-</section>
-
-<section class="home-section" aria-labelledby="research-heading">
-  <div class="section-heading">
-    <div>
-      <p class="eyebrow">Research</p>
-      <h2 id="research-heading">Recent publications</h2>
-    </div>
-    <a href="{{ '/publications/' | relative_url }}">All publications</a>
-  </div>
-  <div class="research-grid">
-    <article class="research-card">
-      <p class="card-kicker">Findings of EMNLP · 2026</p>
-      <h3><a href="https://aclanthology.org/2026.findings-emnlp.1752/">Stay Within Your Bounds: Distance-Guided Decoding for Guaranteed Context-Free Grammar Compliance</a></h3>
-      <p>Grammar-constrained decoding that guides language models toward outputs accepted by a target grammar.</p>
-    </article>
-    <article class="research-card">
-      <p class="card-kicker">IEEE SaTML · 2026</p>
-      <h3><a href="https://www.computer.org/csdl/proceedings-article/satml/2026/785900a368/2jZksMgLdGo">On the Robustness of Tabular Foundation Models: Test-Time Attacks and In-Context Defenses</a></h3>
-      <p>An evaluation of adversarial vulnerabilities and defenses for tabular foundation models.</p>
-    </article>
+<section class="home-intro">
+  <h1>Research notes on AI safety, mathematics, and machine learning</h1>
+  <p>
+    I am Karim Tit, a postdoctoral researcher working on AI safety and verification.
+    This blog mixes research-facing writing, mathematical intuition, and occasional companion notebooks.
+  </p>
+  <div class="home-intro-links">
+    <a href="{{ '/about/' | relative_url }}">About</a>
+    <a href="{{ '/publications/' | relative_url }}">Publications</a>
+    <a href="{{ '/presentations/' | relative_url }}">Presentations</a>
+    <a href="{{ '/leslie/' | relative_url }}">Leslie Matrices, Part 1</a>
+    <a href="{{ '/leslie-matrices-part-2/' | relative_url }}">Leslie Matrices, Part 2</a>
   </div>
 </section>
 
 <section class="home-section" id="writing" aria-labelledby="writing-heading">
   <div class="section-heading">
-    <div>
-      <p class="eyebrow">Writing</p>
-      <h2 id="writing-heading">Research notes</h2>
-    </div>
+    <h2 id="writing-heading">Writing</h2>
   </div>
-  <div class="posts">
+  <div class="post-index">
     {% for post in site.posts %}
-    <article class="post">
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <div class="post-meta">
-        <span>{{ post.date | date: "%B %-d, %Y" }}</span>
-        {% if post.subtitle %}<span class="post-meta-sep">·</span><span>{{ post.subtitle }}</span>{% endif %}
+    <article class="post-index-item">
+      <div>
+        {% if post.subtitle %}<p class="post-index-subtitle">{{ post.subtitle }}</p>{% endif %}
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       </div>
-      <div class="entry">{{ post.excerpt }}</div>
-      <a href="{{ post.url | relative_url }}" class="read-more">Read article</a>
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%B %-d, %Y' }}</time>
     </article>
     {% endfor %}
   </div>

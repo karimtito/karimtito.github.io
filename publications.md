@@ -7,7 +7,7 @@ permalink: /publications/
 ---     
 
 <div class="page-intro">
-This page gathers my research outputs on reliability, robustness, and verification for machine learning systems.
+This page gathers a selection of my research outputs, with an emphasis on reliability, robustness, and statistical evaluation for machine learning systems.
 </div>
 
 ## Published work

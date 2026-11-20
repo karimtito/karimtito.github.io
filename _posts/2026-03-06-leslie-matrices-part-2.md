@@ -2,6 +2,7 @@
 layout: post
 title: Leslie Matrices in Practice
 subtitle: Leslie Matrices, Part 2
+math: true
 ---
 
 In [Part 1]({{ site.baseurl }}/leslie/), we introduced the Leslie matrix and its long-run interpretation through eigenvalues and stable age distributions.

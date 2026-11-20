@@ -1,7 +1,6 @@
 ---
 layout: post
-title: The Zen of PyTorch 
-subtitle: 
+title: The Zen of PyTorch
 ---
 
 ## 17 tips from ChatGPT to stay Zen while using PyTorch
@@ -53,12 +52,3 @@ By prompting ChatGPT one can obtain equivalent poems for PyTorch, a popular Deep
 > 16. If the results are easy to interpret, you’re onto something.
 >
 > 17. Experimentation is one honking great idea – let’s do more of those!
-
-
-
-
-
-<script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
-</script>
