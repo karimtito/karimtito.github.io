@@ -2,14 +2,19 @@
 layout: page
 title: Publications
 subtitle: Selected papers, thesis, and recent research outputs
+description: Publications by Karim Tit on machine learning reliability, robustness, and verification.
 permalink: /publications/
 ---     
 
 <div class="page-intro">
-This page gathers a selection of my research outputs, with an emphasis on reliability, robustness, and statistical evaluation for machine learning systems.
+This page gathers my research outputs on reliability, robustness, and verification for machine learning systems.
 </div>
 
 ## Published work
+
+* [Stay Within Your Bounds: Distance-Guided Decoding for Guaranteed Context-Free Grammar Compliance](https://aclanthology.org/2026.findings-emnlp.1752/), <br> V. Collura, K. Tit, E. Giunchiglia, M. Papadakis, M. Cordy — Findings of EMNLP, 2026. [PDF](https://aclanthology.org/2026.findings-emnlp.1752.pdf)
+
+* [On the Robustness of Tabular Foundation Models: Test-Time Attacks and In-Context Defenses](https://www.computer.org/csdl/proceedings-article/satml/2026/785900a368/2jZksMgLdGo), <br> M. Djilani, T. Simonetto, K. Tit, F. Tambon, S. Ghamizi, M. Cordy, M. Papadakis — IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), 2026. [DOI](https://doi.org/10.1109/SaTML68715.2026.00028)
 
 * DivKC: A Divide-and-Conquer Approach to Knowledge Compilation, <br> O. Zeyen, K. Tit, M. Cordy, G. Perrouin — 29th International Conference on Fundamental Approaches to Software Engineering (FASE), 2026.
 

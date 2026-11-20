@@ -6,7 +6,7 @@ permalink: /about/
 ---
 
 <div class="page-intro">
-I am a postdoctoral researcher in AI safety at the University of Luxembourg. My work sits at the intersection of machine learning reliability, formal and statistical verification, and robust evaluation.
+I am a postdoctoral researcher at the University of Luxembourg. I study the reliability and robustness of machine learning systems, using statistical evaluation and formal methods to assess how they behave under uncertainty and attack.
 
 <a class="button-link" href="/publications/">Publications</a>
 <a class="button-link" href="/cv/">CV</a>
@@ -29,7 +29,8 @@ My current interests include:
 - reliability and robustness estimation for machine learning systems,
 - uncertainty-aware evaluation,
 - verification-oriented tools for high-stakes AI,
-- mathematically grounded explanations of machine learning behavior.
+- adversarial robustness of tabular foundation models,
+- grammar-constrained generation for language models.
 
 ### Contact me
 

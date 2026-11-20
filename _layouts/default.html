@@ -25,10 +25,11 @@
   </head>
 
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          <a href="{{ site.baseurl }}/" class="site-avatar" aria-label="Karim Tit, home"><img src="{{ site.avatar }}" alt="Portrait of Karim Tit" /></a>
 
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
@@ -36,11 +37,13 @@
             
           </div>
 
-          <nav>
-            <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.baseurl }}/publications">Publications</a>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/cv">CV</a>
+          <nav aria-label="Main navigation">
+            <a href="{{ site.baseurl }}/about/"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+            <a href="{{ site.baseurl }}/publications/"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
+            <a href="{{ site.baseurl }}/presentations/"{% if page.url == '/presentations/' %} aria-current="page"{% endif %}>Presentations</a>
+            <a href="{{ site.baseurl }}/news/"{% if page.url == '/news/' %} aria-current="page"{% endif %}>News</a>
+            <a href="{{ site.baseurl }}/#writing">Writing</a>
+            <a href="{{ site.baseurl }}/cv/"{% if page.url == '/cv/' %} aria-current="page"{% endif %}>CV</a>
             <button class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">🌙</button>
             
           </nav>

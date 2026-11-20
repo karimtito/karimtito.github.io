@@ -1,0 +1,21 @@
+- date: 2026-11-19
+  date_iso: 2026-11-19
+  display_date: November 19, 2026
+  title: Presented our SaTML work at ESSAI 2026
+  description: I gave a talk on the robustness of tabular foundation models at the European Symposium on Security and AI, part of European Cyber Week in Rennes.
+  link: /presentations/
+  link_label: Presentation details
+- date: 2026-10-01
+  date_iso: 2026-10
+  display_date: October 2026
+  title: New paper in Findings of EMNLP 2026
+  description: Our paper on distance-guided decoding for guaranteed context-free grammar compliance is now available in the ACL Anthology.
+  link: https://aclanthology.org/2026.findings-emnlp.1752/
+  link_label: Read the paper
+- date: 2026-03-23
+  date_iso: 2026-03
+  display_date: March 2026
+  title: Presented at IEEE SaTML 2026 in Munich
+  description: Our paper on test-time attacks and in-context defenses for tabular foundation models was presented at SaTML 2026.
+  link: /presentations/
+  link_label: Presentation details
