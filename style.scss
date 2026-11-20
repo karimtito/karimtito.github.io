@@ -638,11 +638,14 @@ html[data-theme='dark'] .button-primary:hover { color: #0f172a; background: #a5d
 .presentation-section { margin-top: 2.2rem; }
 .presentation-section h2 { margin-bottom: 0.9rem; }
 .presentation-card h3 { margin: 0.8rem 0; font-size: 1.3rem; }
+.presentation-card + .presentation-card { margin-top: 1rem; }
 .presentation-card p { margin: 0 0 0.8rem; color: var(--text-muted); }
 .presentation-meta, .presentation-links { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.85rem; font-size: 0.9rem; }
 .presentation-meta { color: var(--text-muted); }
 .presentation-kind { padding: 0.1rem 0.6rem; border-radius: 999px; color: var(--accent); background: var(--accent-soft); font-weight: 700; }
+.presentation-links { margin-top: 1rem; }
 .presentation-links a { font-weight: 600; }
+.presentation-links .material-link { padding: 0.35rem 0.65rem; border-radius: 8px; background: var(--accent-soft); }
 
 .page-publications .entry > ul { padding: 0; list-style: none; }
 .page-publications .entry > ul li { padding: 0.95rem 0; border-top: 1px solid var(--border); }

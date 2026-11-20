@@ -8,10 +8,17 @@
 - date: 2026-10-01
   date_iso: 2026-10
   display_date: October 2026
-  title: New paper in Findings of EMNLP 2026
-  description: Our paper on distance-guided decoding for guaranteed context-free grammar compliance is now available in the ACL Anthology.
-  link: https://aclanthology.org/2026.findings-emnlp.1752/
-  link_label: Read the paper
+  title: SWYB paper and poster at EMNLP 2026
+  description: Our paper on grammar-constrained decoding appeared in Findings of EMNLP, and I presented the poster in Budapest with Vincenzo Collura.
+  link: /presentations/
+  link_label: View the poster
+- date: 2026-09-17
+  date_iso: 2026-09-17
+  display_date: September 17, 2026
+  title: Shared talk at Agentic AI Night in Luxembourg
+  description: Maxime Cordy and I presented How Reliable Is Your AI Agent? And How Research Can Help at the first AAIF Luxembourg meetup.
+  link: /presentations/
+  link_label: View the slides
 - date: 2026-03-23
   date_iso: 2026-03
   display_date: March 2026
@@ -19,3 +26,10 @@
   description: Our paper on test-time attacks and in-context defenses for tabular foundation models was presented at SaTML 2026.
   link: /presentations/
   link_label: Presentation details
+- date: 2026-02-17
+  date_iso: 2026-02-17
+  display_date: February 17, 2026
+  title: Talk at Data Science Luxembourg
+  description: I discussed tabular foundation models and their security challenges at the Data Science Luxembourg meetup.
+  link: /presentations/
+  link_label: View the slides
