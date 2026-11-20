@@ -16,9 +16,9 @@ This page gathers my research outputs on reliability, robustness, and verificati
 
 * [On the Robustness of Tabular Foundation Models: Test-Time Attacks and In-Context Defenses](https://www.computer.org/csdl/proceedings-article/satml/2026/785900a368/2jZksMgLdGo), <br> M. Djilani, T. Simonetto, K. Tit, F. Tambon, S. Ghamizi, M. Cordy, M. Papadakis — IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), 2026. [DOI](https://doi.org/10.1109/SaTML68715.2026.00028)
 
-* DivKC: A Divide-and-Conquer Approach to Knowledge Compilation, <br> O. Zeyen, K. Tit, M. Cordy, G. Perrouin — 29th International Conference on Fundamental Approaches to Software Engineering (FASE), 2026.
+* [DivKC: A Divide-and-Conquer Approach to Knowledge Compilation](https://link.springer.com/chapter/10.1007/978-3-032-22774-4_7), <br> O. Zeyen, K. Tit, M. Cordy, G. Perrouin — 29th International Conference on Fundamental Approaches to Software Engineering (FASE), 2026. [ScienceOpen proceedings](https://www.scienceopen.com/book?vid=e763fe4d-cc42-456e-b719-ac0460b1e71f)
 
-* KCLNet: Physics-Informed Power Flow Prediction via Constraints Projections, <br> P. Dogoulis, K. Tit, M. Cordy — Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD), 2025.
+* [KCLNet: Physics-Informed Power Flow Prediction via Constraints Projections](https://link.springer.com/chapter/10.1007/978-3-032-06129-4_6), <br> P. Dogoulis, K. Tit, M. Cordy — Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD), 2025. [ACM record](https://dl.acm.org/doi/10.1007/978-3-032-06129-4_6)
 
 * [Fast Reliability Estimation for Neural Networks with Adversarial Attack-Driven Importance Sampling](https://openreview.net/forum?id=0usGhloD12), <br>  K.T., T. Furon - 40th Conference on Uncertainty in Artificial Intelligence (UAI), Jul 2024, Barcelona, Spain.
 
